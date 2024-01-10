@@ -1,0 +1,33 @@
+@media (min-width: 800px) {
+  #tribute-info {
+    width: 800px;
+  }
+}
+blockquote p {
+  display: flex;
+  text-align: left;
+  margin: 0 -30px 10px -10px;
+  text-justify: distribute;
+}
+
+@media (min-width: 280px) {
+  h1 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 13px;
+    text-align: center;
+  }
+  figcaption {
+    font-size: 12px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  ul {
+    margin-right: 10px;
+    margin-left: -4px;
+    text-justify: distribute;
+    line-height: 20px;
+  }
+}
